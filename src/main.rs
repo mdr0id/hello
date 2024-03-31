@@ -1,3 +1,9 @@
+fn swap<A, B>(a: A, b:B) -> (B, A) {
+    (b, a)
+}
+
 fn main() {
-    println!("Hello, world!");
+    let a ="world";
+    let b ="hello";
+    println!("{:?}", swap(a, b));
 }
